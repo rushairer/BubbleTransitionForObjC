@@ -46,7 +46,7 @@ typedef NS_ENUM(NSInteger, BubbleTransitionMode) {
 /**
  The color of the bubble. Make sure that it matches the destination controller's background color.
  */
-@property (nonatomic, assign) UIColor *bubbleColor;
+@property (nonatomic, strong) UIColor *bubbleColor;
 
 @property (nonatomic, strong) UIView *bubble;
 
